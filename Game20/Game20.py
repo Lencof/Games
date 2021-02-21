@@ -6,14 +6,14 @@ Author:
 微信公众号:
     Charles的皮卡丘
 '''
-import cfg
-import sys
-import pygame
-from modules import *
+import cfg   # use cfg
+import sys   # use sys
+import pygame   # use pygame
+from modules import * 
 
 
 '''主函数'''
-def main(cfg):
+def main(cfg): # creat def main(cfg):
     # 初始化
     pygame.init()
     pygame.mixer.init()
